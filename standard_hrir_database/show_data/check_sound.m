@@ -5,7 +5,7 @@ play_sound_flag = 1;
 
 switch computer,
    
-case 'PCWIN'                            % MS Windows
+case 'PCWIN64'                            % MS Windows
    if (exist('wavplay') ~= 2) & (exist('sound') ~= 2),
       play_sound_flag = 0;
       if show_warning,

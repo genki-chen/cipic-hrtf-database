@@ -93,6 +93,8 @@ data_path_tail = [sep 'hrir_final.mat'];
 resolution = get(0, 'ScreenSize');
 y_pixels = resolution(4);
 switch y_pixels,
+case 1440
+   Fsize = 18;
 case 1024
    Fsize = 14;
 case 768

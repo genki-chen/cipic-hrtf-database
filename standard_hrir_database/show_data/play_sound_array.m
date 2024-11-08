@@ -32,7 +32,7 @@ end;
 
 switch computer,
    
-case 'PCWIN'                                    % MS-windows OS
+case 'PCWIN64'                                    % MS-windows OS
    vernum = version_number;
    if vernum < 6,
       sound_array = sound_array(:,[2,1]);       % Swap left and right channels for 5.x
